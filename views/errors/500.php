@@ -97,6 +97,26 @@
                 <pre><?= htmlspecialchars(json_encode(getallheaders(), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)) ?></pre>
             </div>
         </div>
+
+        <!-- show exception erros -->
+        <div class="col-md-8">
+            <h1>Error Message</h1>
+            <?php if (isset($exception)): ?>
+               <div class="detail-item">
+                   <span class="detail-label">Exception Message:</span>
+                   <pre><?= htmlspecialchars($exception->getMessage()) ?></pre>
+               </div>
+               <div class="detail-item">
+                   <span class="detail-label">File:</span>
+                   <div class="detail-value"><?= htmlspecialchars($exception->getFile()) ?>:<?= $exception->getLine() ?></div>
+               </div>
+               <div class="detail-item">
+                   <span class="detail-label">Stack Trace:</span>
+                   <pre><?= htmlspecialchars($exception->getTraceAsString()) ?></pre>
+               </div>
+           <?php endif; ?>
+        </div>
+
     </div>
 </body>
 </html>

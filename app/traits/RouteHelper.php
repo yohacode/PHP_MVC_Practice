@@ -68,6 +68,11 @@ trait RouteHelper
                 // Handle different callback types
                 if (is_string($callback)) {
                     // Assume format "Controller@method"
+                    if (strpos($callback, '@') === false) {
+                        throw new \Exception("Invalid route callback format. Expected 'Controller@method'.");
+                    }
+
+
                     [$controller, $method] = explode('@', $callback);
                     $controllerInstance = new $controller();
                     $callback = [$controllerInstance, $method];
@@ -110,7 +115,7 @@ trait RouteHelper
             }
         }
 
-        throw new \Exception("No route found for $method $requestPath");
+        throw new \App\exceptions\PageNotFound("No route found for $method $requestPath");
     }
 
 

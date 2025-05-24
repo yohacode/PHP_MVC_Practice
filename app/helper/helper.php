@@ -35,3 +35,18 @@ if (!function_exists('env')) {
 }
 
 
+if (!function_exists('view'))
+{
+    /**
+     * Helper function to create a new View instance.
+     *
+     * @return \App\core\View
+     */
+    function view($name='',$argc = [])
+    {
+        $v = new \App\core\View();
+        return $v->view($name, $argc);
+    }
+}
+
+

@@ -16,6 +16,10 @@ class Router implements MethodsInterface
     private $groupAttributes = [];
     private $groupCallback = null;
 
+    // public function __call($name, $arguments)
+    // {
+    //     // 
+    // }
     
 
 }

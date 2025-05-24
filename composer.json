@@ -6,7 +6,7 @@
             "App\\": "app/"
         },
         "files": [
-            "app/helper/config.php","app/helper/route.php", "app/helper/helper.php"
+            "app/helper/config.php","app/helper/route.php", "app/helper/helper.php", "app/helper/view.php"
         ]
     },
     "authors": [
@@ -18,5 +18,8 @@
     "require": {
         "symfony/var-dumper": "^7.2",
         "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
     }
 }

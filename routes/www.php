@@ -4,11 +4,13 @@
 // use ;
 use App\core\Router;
 
-Router::get('/', [App\controller\HomeController::class, 'index']); // Home page route
-Router::get('/home', 'App\controller\HomeController@index'); // Home page route with string callback
 
-Router::get('/about', function (){
-    echo "hi!. this John.";
-}); // About page route
+Router::get('/', [App\controller\HomeController::class, 'index']); // Home page route
+Router::get('/home', 'App\controller\HomeController@show'); // Home page route with string callback
+
+Router::get('/about', function () {
+    echo "About";
+}); // About page route with view rendering
+
 
 

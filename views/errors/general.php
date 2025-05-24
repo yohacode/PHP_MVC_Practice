@@ -154,6 +154,24 @@
                             </div>
 
                         </div>
+
+                        <div class="col-md-x">
+                            <?php if (isset($exception)): ?>
+                                <div class="detail-item">
+                                    <span class="detail-label">Exception Message:</span>
+                                    <pre><?= htmlspecialchars($exception->getMessage()) ?></pre>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">File:</span>
+                                    <div class="detail-value"><?= htmlspecialchars($exception->getFile()) ?>:<?= $exception->getLine() ?></div>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Stack Trace:</span>
+                                    <pre><?= htmlspecialchars($exception->getTraceAsString()) ?></pre>
+                                </div>
+                            <?php endif; ?>
+
+                        </div>
                     </div>
 
                 </div>

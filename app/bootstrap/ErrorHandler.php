@@ -4,6 +4,11 @@ namespace App\bootstrap;
 
 class ErrorHandler
 {
+    use \App\traits\ErrorPagesHelper;
+    /**
+     * Register the error and exception handlers.
+     * This method should be called at the beginning of your application.
+     */
     public static function register(): void
     {
         // Enable full error reporting during development
@@ -25,14 +30,14 @@ class ErrorHandler
 
     public static function handleException(\Throwable $exception): void
     {
-        http_response_code(500);
+        // http_response_code(500);
         error_log($exception); // You can also log to a file here
         // log to a file
         if (!is_dir(__DIR__ . '/../../storage/logs')) {
             mkdir(__DIR__ . '/../../storage/logs', 0777, true);
         }
         file_put_contents(__DIR__ . '/../../storage/logs/error.log', (string) $exception . PHP_EOL, FILE_APPEND);
-        self::renderErrorPage($exception);
+        self::renderErrorViews($exception);
     }
 
     public static function handleShutdown(): void
@@ -49,23 +54,21 @@ class ErrorHandler
         }
     }
 
-    protected static function renderErrorPage(\Throwable $exception): void
+    protected static function renderErrorViews(\Throwable $exception): void
     {
-        if (ob_get_length()) ob_clean(); // Clean any prior output
-
-        http_response_code($exception->getCode() ?: 500); // Set the response code BEFORE sending output
-        include __DIR__ . '/../../views/errors/general.php';
-        $env = $_ENV['APP_ENV'] ?? getenv('APP_ENV') ?? 'production';
-        $isDev = $env === 'development';
-
-        if ($isDev) {
-            // Developer-friendly error page
-            require_once dirname(__DIR__, 2) . '/views/errors/general.php';
-        } else {
-            // Production-friendly error view
-            require_once dirname(__DIR__, 2) . '/views/errors/500.php';
+        $exceptions = $exception;
+        // render a custom error page based on the exception type
+        if ($exception instanceof \App\exceptions\PageNotFound) {
+            self::render404Page();
+        } elseif ($exception instanceof \App\exceptions\UnauthorizedException) {
+            self::render401Page();
+        } elseif ($exception instanceof \App\exceptions\ForbiddenException) {
+            self::render403Page();
+        }else {
+            // dd($exceptions);
+            self::render500Page();
         }
-
-        exit;
     }
+
+
 }
