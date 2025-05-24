@@ -9,13 +9,10 @@ class LoadRouters implements LoadRouterInterface
 {
     public static function loadRouter($filePath)
     {
-        // Load the router file
-        if (file_exists($filePath)) 
-        {
-            return require $filePath;
-        } else 
-        {
-            throw new LoadRouterException();
+        if (!file_exists($filePath)) {
+            throw new LoadRouterException("File not found: $filePath");
         }
+
+        require $filePath; // Register routes
     }
 }

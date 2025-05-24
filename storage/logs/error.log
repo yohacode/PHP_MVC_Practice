@@ -1,0 +1,14 @@
+App\exceptions\RouteError: [404]: Route not found: GET /abou
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /s
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /s
+
+App\exceptions\RouteError: [404]: Route not found: GET /s
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+

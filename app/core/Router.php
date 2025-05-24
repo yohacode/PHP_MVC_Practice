@@ -2,6 +2,8 @@
 
 namespace App\core;
 
+use App\bootstrap\ErrorHandler;
+use App\exceptions\RouteError;
 use App\interface\MethodsInterface;
 
 class Router implements MethodsInterface
@@ -101,25 +103,53 @@ class Router implements MethodsInterface
             }
         }
 
-        // If no route is found, you can handle the 404 error here
         http_response_code(404);
-        echo '404 Not Found';
+        // If no route is found, you can handle the 404 error here
+        // Exception::handle(new \Exception("Route not found: $method $path"));
+        // or you can include a custom 404 error page
+        // echo '404 Not Found';
+        throw new RouteError("Route not found: $method $path", 404);
     }
 
     // get routes
-    public function getRoutes()
+    public static function getRoutes()
     {
-        return $this->routes;
+        return self::me()->routes;
     }
 
-    public function run()
+    public static function run()
     {
         // Get the current request method and path
         $method = $_SERVER['REQUEST_METHOD'];
+        // Parse the URL to get the path with query string array
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-
+        // Remove the query string from the path
+        $path = strtok($path, '?');
         // Dispatch the request to the appropriate route
-        $this->dispatch($method, $path);
+
+        // 
+        try {
+            self::me()->dispatch($method, $path);
+        } catch (\App\exceptions\RouteError $e) {
+            // Handle the exception (e.g., log it, show a custom error page, etc.)
+            http_response_code(400);
+            // Log the error (optional)
+            error_log($e->getMessage());
+            // Show custom error page
+            ErrorHandler::handleException($e);
+            
+        }
+        // self::me()->dispatch($method, $path);
+    }
+
+    // get query string array from current request
+    public static function getQueryString()
+    {
+        // Parse the URL to get the query string
+        $queryString = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
+        // Parse the query string into an associative array
+        parse_str($queryString, $queryArray);
+        return $queryArray;
     }
 
     public function __call($name, $arguments)

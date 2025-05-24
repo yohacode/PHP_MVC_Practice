@@ -4,13 +4,15 @@ namespace App\traits;
 
 trait FromStatic
 {
-    /**
-     * Static method to create a new instance of the class.
-     *
-     * @return static
-     */
+    protected static $instance;
+
     public static function me()
     {
-        return new static();
+        if (!self::$instance) {
+            self::$instance = new static();
+        }
+        return self::$instance;
     }
+
+    
 }

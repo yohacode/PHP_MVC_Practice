@@ -2,7 +2,8 @@
 
 namespace App\core;
 
-use App\core\LoadConfigs;
+use Exception;
+use App\bootstrap\ErrorHandler;
 
 class Application
 {
@@ -14,45 +15,37 @@ class Application
 
     private function init()
     {
+        // Error handling
+        ErrorHandler::register();
+
         // Load environment variables
         load_env(__DIR__. '/../../');
 
         // Load configuration files 
         config(__DIR__ . '/../config/app.php');
         // Load routes
-        // dd(load_routes(__DIR__ . '/../../routes/www.php'), "routes");
+        try {
+            LoadRouters::loadRouter(__DIR__ . '/../../routes/www.php');
+        } catch (Exception $e) {
+            echo "Error loading routes: " . $e->getMessage();
+        }
 
-
-        // This is where you would set up your application
 
     }
 
     public function run()
     {
-        // Run the application
-        // echo "Application is running.\n";
-        load_routes(__DIR__ . '/../../routes/www.php');
-        // Handle the request
-        dd(Router::me()->getRoutes());
-        Router::me()->run();
+        Router::run();
     }
     
     public function handleRequest()
     {
         // Handle incoming requests
-        /**
-         * * Here you would typically parse the request, route it to the appropriate controller,
-         * * and return a response.
-         * * * For example:
-         * * $request = $_SERVER['REQUEST_URI'];
-         * * if ($request === '/home') {
-         * *     $this->homeController();
-         * * } elseif ($request === '/about') {
-         * *     $this->aboutController();
-         * * } else {
-         * *     $this->notFoundController();
-         * * }
-         */
+        echo "Handling request...\n";
+        // Here you would typically parse the URL, determine the controller and action to call, etc.
+        // For example:
+        // $controller = new SomeController();
+        // $controller->someAction();
     }
 
     public function sendResponse()
