@@ -90,3 +90,870 @@ App\exceptions\RouteError: [404]: Route not found: GET /user/
 
 App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
 
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(67): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(95): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func_array()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+ErrorException: Cannot override final method Exception::getCode() in /home/yohacodes/Projects/PHP/MVC/app/exceptions/RouteError.php:35
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, non-static method App\controller\HomeController::index() cannot be called statically in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(66): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(94): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+ErrorException: Cannot override final method Exception::getCode() in /home/yohacodes/Projects/PHP/MVC/app/exceptions/RouteError.php:35
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "App\controller\HomeController" not found or invalid function name in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:68
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(68): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(96): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "App\controller\HomeController" not found or invalid function name in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:68
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(68): call_user_func()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(96): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#5 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:77
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(108): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:79
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:79
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(109): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Cannot use object of type Closure as array in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:67
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(110): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:79
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(110): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:83
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:83
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:78
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:83
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(107): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:85
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:85
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:85
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Error: Class "HomeController" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:69
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Error: Class "HomeController" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:69
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(113): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:86
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:86
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:86
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:86
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(15): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:86
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(114): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:88
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:92
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:88
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:92
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:88
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:92
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(116): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: Invalid route callback. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:89
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(117): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:93
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(117): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Error: Cannot use object of type Closure as array in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:104
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(135): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:111
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(135): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+ArgumentCountError: Wrong parameter count for var_dump() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:64
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(64): var_dump()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(136): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#5 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:112
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(136): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+ArgumentCountError: Wrong parameter count for var_dump() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:64
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(64): var_dump()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(136): App\core\Router->dispatch()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#5 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:112
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(136): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Error: Call to undefined function PHPSTORM_META\type() in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:66
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Error: Cannot use object of type Closure as array in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /sds in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /about/sdf in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}
+Exception: No route found for GET /logo.svg in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:113
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(137): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(56): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(40): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
+#4 {main}

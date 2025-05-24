@@ -14,5 +14,10 @@ trait FromStatic
         return self::$instance;
     }
 
+    public static function __callStatic($method, $arguments)
+    {
+        return self::me()->$method(...$arguments);
+    }
+
     
 }

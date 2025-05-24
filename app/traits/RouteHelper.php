@@ -5,6 +5,7 @@ namespace App\traits;
 use App\exceptions\RouteError;
 use App\bootstrap\ErrorHandler;
 
+use function PHPSTORM_META\type;
 
 trait RouteHelper
 {
@@ -56,17 +57,62 @@ trait RouteHelper
 
             if (preg_match($regex, $requestPath, $matches)) {
                 array_shift($matches); // Remove full match
-                $params = array_keys($route['params']);
-                $args = array_combine($params, $matches);
+                $params = array_keys($route['params'] ?? []);
+                $args = array_combine($params, $matches) ?: [];
 
-                // Call the callback with extracted params
-                return call_user_func_array($route['callback'], $args);
+                $callback = $route['callback'];
+                // var_dump($callback);
+
+                // dd(call_user_func($callback, ...array_values($args)));
+
+                // Handle different callback types
+                if (is_string($callback)) {
+                    // Assume format "Controller@method"
+                    [$controller, $method] = explode('@', $callback);
+                    $controllerInstance = new $controller();
+                    $callback = [$controllerInstance, $method];
+                }
+
+                if (is_array($callback))
+                {
+                    // Check if the first element is a class instance or a class name
+                    if (is_string($callback[0]) && class_exists($callback[0])) {
+                        $instance = new $callback[0];
+                        $callback = [$instance, $callback[1]];
+                        // dd($instance->index(), $callback);
+                        return call_user_func($callback);
+                    } elseif (is_object($callback[0]) && method_exists($callback[0], $callback[1])) {
+                        // Already an instance with method
+                        $instance = $callback[0];
+                    } else {
+                        throw new \Exception("Invalid route callback.");
+                    }
+                }
+
+                // if (is_array($callback) && is_object($callback[0]) && method_exists($callback[0], $callback[1])) {
+                //     // return call_user_func_array($callback, array_values($args));
+                //     $instance = new $callback[0];
+                //     // dd($instance);
+                // }
+
+                if (is_callable($callback)) {
+                    // dd('ds');
+                    // dd($callback);
+                    return call_user_func($callback);
+                }
+
+                // if (is_object($callback) && method_exists($callback, '__invoke')) {
+                //     // return $callback(...array_values($args));
+                //     return call_user_func($callback[0]);
+                // }
+
+                throw new \Exception("Invalid route callback.");
             }
         }
 
-        // Route not found
-        throw new RouteError("Route not found: $method $requestPath", 404);
+        throw new \Exception("No route found for $method $requestPath");
     }
+
 
 
 
@@ -107,8 +153,8 @@ trait RouteHelper
         // Parse the URL to get the query string
         $queryString = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
         // Parse the query string into an associative array
-        parse_str($queryString, $queryArray);
-        return $queryArray;
+        // parse_str($queryString, $queryArray);
+        // return $queryArray;
     }
 
     public function __call($name, $arguments)

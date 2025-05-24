@@ -28,7 +28,6 @@ class ErrorHandler
         http_response_code(500);
         error_log($exception); // You can also log to a file here
         // log to a file
-        // Ensure the directory exists
         if (!is_dir(__DIR__ . '/../../storage/logs')) {
             mkdir(__DIR__ . '/../../storage/logs', 0777, true);
         }
@@ -52,6 +51,10 @@ class ErrorHandler
 
     protected static function renderErrorPage(\Throwable $exception): void
     {
+        if (ob_get_length()) ob_clean(); // Clean any prior output
+
+        http_response_code($exception->getCode() ?: 500); // Set the response code BEFORE sending output
+        include __DIR__ . '/../../views/errors/general.php';
         $env = $_ENV['APP_ENV'] ?? getenv('APP_ENV') ?? 'production';
         $isDev = $env === 'development';
 

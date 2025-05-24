@@ -88,111 +88,93 @@ class AppContainer
     protected $globalAfterResolvingCallbacksByClassAndTag = [];
 
 
-
-    // Core binding method
-    public function bind(string $abstract, callable $concrete)
+     public function bind($abstract, $concrete)
     {
         $this->bindings[$abstract] = $concrete;
     }
 
-    // Singleton binding
-    /**
-     * @param string $abstract
-     * @param callable $concrete
-     * @return void
-     * @throws \Exception
-     * @throws \ReflectionException
-     * @throws \Error
-     * @throws \TypeError
-     * @throws \ArgumentCountError
-     * @throws \ErrorException
-     * Example:
-     * $container->singleton('db', function ($container) {
-     *     return new DatabaseConnection();
-     * });
-     * $db = $container->make('db');
-     */
-    public function singleton(string $abstract, callable $concrete)
+    public function singleton($abstract, $concrete)
     {
-        $this->bind($abstract, function () use ($concrete, $abstract) {
-            if (!isset($this->instances[$abstract])) {
-                $this->instances[$abstract] = $concrete($this);
-            }
-            return $this->instances[$abstract];
-        });
+        $this->services[$abstract] = $concrete;
     }
 
-    // Resolving
-    
-    public function make(string $abstract)
-    {
-        // If singleton instance exists
-        if (isset($this->instances[$abstract])) {
-            return $this->instances[$abstract];
-        }
-
-        // If binding exists
-        if (isset($this->bindings[$abstract])) {
-            $object = $this->bindings[$abstract]($this);
-            $this->resolved[$abstract] = true;
-            return $object;
-        }
-
-        // If no binding, try to autowire
-        if (class_exists($abstract)) {
-            return $this->build($abstract);
-        }
-
-        throw new \Exception("Cannot resolve service: {$abstract}");
-    }
-
-    // Autowire via reflection
-    public function build(string $concrete)
-    {
-        $reflector = new \ReflectionClass($concrete);
-
-        if (!$reflector->isInstantiable()) {
-            throw new \Exception("Class {$concrete} is not instantiable.");
-        }
-
-        $constructor = $reflector->getConstructor();
-
-        if (!$constructor) {
-            return new $concrete;
-        }
-
-        $parameters = $constructor->getParameters();
-        $dependencies = [];
-
-        foreach ($parameters as $parameter) {
-            $type = $parameter->getType();
-            if ($type && !$type->isBuiltin()) {
-                $dependencies[] = $this->make($type->getName());
-            } else {
-                throw new \Exception("Unresolvable dependency for {$parameter->getName()}");
-            }
-        }
-
-        return $reflector->newInstanceArgs($dependencies);
-    }
-
-    // Register alias
-    public function alias(string $abstract, string $alias)
+    public function alias($abstract, $alias)
     {
         $this->aliases[$alias] = $abstract;
     }
 
-    // Resolve alias
-    public function resolveAlias(string $alias)
+    public function make($abstract)
     {
-        return $this->aliases[$alias] ?? $alias;
+        if (isset($this->aliases[$abstract])) {
+            $abstract = $this->aliases[$abstract];
+        }
+
+        if (isset($this->instances[$abstract])) {
+            return $this->instances[$abstract];
+        }
+
+        $object = null;
+
+        if (isset($this->bindings[$abstract])) {
+            $object = $this->bindings[$abstract]($this);
+        } elseif (isset($this->services[$abstract])) {
+            $object = $this->services[$abstract]($this);
+            $this->instances[$abstract] = $object;
+        } elseif (class_exists($abstract)) {
+            $object = new $abstract();
+        } else {
+            throw new \Exception("Cannot resolve [$abstract]");
+        }
+
+        $this->resolved[$abstract] = true;
+
+        // Global and targeted resolving callbacks
+        foreach ($this->globalResolvingCallbacks as $callback) {
+            $callback($object, $this);
+        }
+
+        foreach ($this->resolvingCallbacks[$abstract] ?? [] as $callback) {
+            $callback($object, $this);
+        }
+
+        foreach ($this->afterResolvingCallbacks[$abstract] ?? [] as $callback) {
+            $callback($object, $this);
+        }
+
+        foreach ($this->globalAfterResolvingCallbacks as $callback) {
+            $callback($object, $this);
+        }
+
+        return $object;
     }
 
-    // Check if resolved
-    public function isResolved(string $abstract): bool
+    public function resolving($abstract, $callback)
     {
-        return isset($this->resolved[$abstract]);
+        $this->resolvingCallbacks[$abstract][] = $callback;
     }
 
-    
+    public function afterResolving($abstract, $callback)
+    {
+        $this->afterResolvingCallbacks[$abstract][] = $callback;
+    }
+
+    public function tag($abstracts, $tags)
+    {
+        foreach ((array)$tags as $tag) {
+            foreach ((array)$abstracts as $abstract) {
+                $this->tagged[$tag][] = $abstract;
+            }
+        }
+    }
+
+    public function tagged($tag)
+    {
+        $results = [];
+
+        foreach ($this->tagged[$tag] ?? [] as $abstract) {
+            $results[] = $this->make($abstract);
+        }
+
+        return $results;
+    }
 }

@@ -34,12 +34,24 @@ class Application
 
     public function run()
     {
+        // Start the application
+        // echo "Application is running...\n";
+        // Handle incoming request
+        $this->handleRequest();
+        // Send response to the client
+        $this->sendResponse();
+        // Close the application
+        // echo "Application is closing...\n";
+        // Cleanup resources
+        // ...
+        // Exit the application
+        exit;
     }
     
     public function handleRequest()
     {
         //  Handle incoming request
-        echo "Handling request...\n";
+        // echo "Handling request...\n";
         // Dispatch the request to the router
         Router::run();
     }
@@ -47,6 +59,6 @@ class Application
     public function sendResponse()
     {
         // Send response to the client
-        echo "Sending response...\n";
+        // echo "Sending response...\n";
     }
 }
