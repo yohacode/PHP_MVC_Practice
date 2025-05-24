@@ -57,14 +57,7 @@ class ErrorHandler
 
         if ($isDev) {
             // Developer-friendly error page
-            // echo "<h1>Uncaught Exception</h1>";
-            // echo "<p><strong>Message:</strong> " . htmlspecialchars($exception->getMessage()) . "</p>";
-            // echo "<p><strong>File:</strong> " . htmlspecialchars($exception->getFile()) . "</p>";
-            // echo "<p><strong>Line:</strong> " . $exception->getLine() . "</p>";
-            // echo "<pre><strong>Trace:</strong>\n" . htmlspecialchars($exception->getTraceAsString()) . "</pre>";
-            // general error page
             require_once dirname(__DIR__, 2) . '/views/errors/general.php';
-
         } else {
             // Production-friendly error view
             require_once dirname(__DIR__, 2) . '/views/errors/500.php';

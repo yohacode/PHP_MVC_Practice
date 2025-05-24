@@ -1,10 +1,6 @@
 <?php
 
 // Routes for the web application { Vanilla PHP project }
-
-// Include the router class
-
-
 use App\core\Router;
 
 Router::get('/', function () {
@@ -19,12 +15,22 @@ Router::get('/', function () {
 
 Router::get('/about', function () {
     // echo 'This is the about page.';
-    // tring closure
     $closure = function() {
         return "Hi! From closure function.";
     };
     echo $closure(); // Hi!
 });
 
+
+// Route with parameters
+Router::get('/user/{id}', function ($id) {
+    // echo "User ID: $id";
+    echo "User ID: $id";
+});
+
+Router::get('/user/{id}/profile', function ($id) {
+    // echo "User ID: $id";
+    echo "User ID: $id";
+});
 
 

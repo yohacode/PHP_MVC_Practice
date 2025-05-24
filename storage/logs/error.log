@@ -12,3 +12,81 @@ App\exceptions\RouteError: [404]: Route not found: GET /s
 
 App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
 
+App\exceptions\RouteError: [404]: Route not found: GET /user/2
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /user/2
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /d
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /user/1
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /user/1
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /user/1
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /use/w
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+App\exceptions\RouteError: [404]: Route not found: GET /user/12/1
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
+Error: Class "Route" not found in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+Error: Class "Route" not found in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+Error: Call to undefined method App\core\Router::ERROR() in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+Error: Call to undefined method App\core\Router::ERROR() in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+Error: Call to undefined method App\core\Router::ERROR() in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+Error: Call to undefined method App\core\Router::ERROR() in /home/yohacodes/Projects/PHP/MVC/routes/www.php:37
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(28): App\core\LoadRouters::loadRouter()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(13): App\core\Application->init()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(14): App\core\Application->__construct()
+#4 {main}
+App\exceptions\RouteError: [404]: Route not found: GET /user/
+
+App\exceptions\RouteError: [404]: Route not found: GET /logo.svg
+
