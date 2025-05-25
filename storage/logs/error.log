@@ -49,3 +49,233 @@ Stack trace:
 #2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(35): App\core\Application->handleRequest()
 #3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->run()
 #4 {main}
+App\exceptions\PageNotFound: No route found for GET /a in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(41): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(35): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+ErrorException: file_get_contents(/home/yohacodes/Projects/PHP/MVC/app/traits/app/../../.env): Failed to open stream: No such file or directory in /home/yohacodes/Projects/PHP/MVC/vendor/vlucas/phpdotenv/src/Store/File/Reader.php:73
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/vendor/vlucas/phpdotenv/src/Store/File/Reader.php(73): file_get_contents()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/vlucas/phpdotenv/src/Store/File/Reader.php(48): Dotenv\Store\File\Reader::readFromFile()
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/vlucas/phpdotenv/src/Store/FileStore.php(62): Dotenv\Store\File\Reader::read()
+#4 /home/yohacodes/Projects/PHP/MVC/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#5 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(21): Dotenv\Dotenv->load()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(13): load_env()
+#7 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(19): App\core\Application->init()
+#8 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#9 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(50): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(50): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(50): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(50): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:106
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(130): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(50): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET / in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:104
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(128): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /pop in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:104
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(128): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /jkh/0 in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:104
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(128): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+ErrorException: During class fetch: Uncaught ParseError: syntax error, unexpected token "public" in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteParameter.php:26
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/Router.php(11): Composer\Autoload\ClassLoader->loadClass()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#8 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#9 {main} in /home/yohacodes/Projects/PHP/MVC/app/core/Router.php:11
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: http_response_code(): Cannot set response code - headers already sent (output started at /home/yohacodes/Projects/PHP/MVC/app/core/Router.php:11) in /home/yohacodes/Projects/PHP/MVC/app/traits/ErrorPagesHelper.php:22
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/ErrorPagesHelper.php(22): http_response_code()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/ErrorPagesHelper.php(43): App\bootstrap\ErrorHandler::renderErrorPage()
+#3 /home/yohacodes/Projects/PHP/MVC/app/bootstrap/ErrorHandler.php(89): App\bootstrap\ErrorHandler::render500Page()
+#4 /home/yohacodes/Projects/PHP/MVC/app/bootstrap/ErrorHandler.php(56): App\bootstrap\ErrorHandler::renderErrorViews()
+#5 /home/yohacodes/Projects/PHP/MVC/app/bootstrap/ErrorHandler.php(67): App\bootstrap\ErrorHandler::handleException()
+#6 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#7 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+TypeError: App\core\Router::get(): Argument #2 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/routes/www.php on line 6 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:14
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#5 {main}
+TypeError: App\core\Router::get(): Argument #2 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/routes/www.php on line 6 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:14
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#5 {main}
+TypeError: App\core\Router::get(): Argument #2 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/routes/www.php on line 6 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:14
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#5 {main}
+TypeError: App\core\Router::get(): Argument #2 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/routes/www.php on line 6 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:17
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#5 {main}
+TypeError: App\core\Router::get(): Argument #2 ($callback) must be of type ?callable, array given, called in /home/yohacodes/Projects/PHP/MVC/routes/www.php on line 6 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:17
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#5 {main}
+TypeError: App\core\Router::addRoute(): Argument #3 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php on line 19 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:23
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php(19): App\core\Router->addRoute()
+#1 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#5 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#6 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, callable $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get($path, $callback) must be compatible with App\interface\MethodsInterface::get(string $path, $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::post($path, $callback) must be compatible with App\interface\MethodsInterface::post(string $path, $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:23
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::post($path, $callback) must be compatible with App\interface\MethodsInterface::post(string $path, $callback): void in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:23
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::get(string $path, $callback): void must be compatible with App\interface\MethodsInterface::get($path, $callback) in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php:9
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::group(array $attributes, callable $callback): void must be compatible with App\interface\MethodsInterface::group(array $attributes, $callback) in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:9
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::group(array $attributes, callable $callback): void must be compatible with App\interface\MethodsInterface::group(array $attributes, $callback) in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:9
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::group(array $attributes, callable $callback): void must be compatible with App\interface\MethodsInterface::group($attributes, $callback) in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:9
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Declaration of App\core\Router::redirect(string $from, string $to, int $status = 302): void must be compatible with App\interface\MethodsInterface::redirect($from, $to, int $status = 302) in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:15
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+TypeError: App\core\Router::addRoute(): Argument #3 ($callback) must be of type callable, array given, called in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php on line 11 and defined in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:23
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteMethodHelper.php(11): App\core\Router->addRoute()
+#1 /home/yohacodes/Projects/PHP/MVC/routes/www.php(6): App\core\Router::get()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#5 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
+#6 {main}

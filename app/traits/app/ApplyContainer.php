@@ -2,43 +2,43 @@
 
 namespace App\traits\app;
 
-use App\container\AppContainer;
+// use App\container\AppContainer;
 
-class ApplyContainer extends AppContainer
+trait ApplyContainer 
 {
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $app = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfig = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigPath = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigFile = [];
 
 
 
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigFilePath = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigFileName = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigFileNamePath = [];
     /**
-     * @var array
+     * @var array<string, mixed>
      */
     protected $appConfigFileNamePathFile = [];
 
@@ -48,63 +48,63 @@ class ApplyContainer extends AppContainer
 
     // Methods to get the app config and to instantiate the app container
     /**
-     * @return array
+     * @return array<string, mixed>
      */
-    public function getAppConfig()
+    public function getAppConfig(): array
     {
         return $this->appConfig;
     }
 
     /**
-     * @param array $appConfig
+     * @param array<string, mixed> $appConfig
      */
-    public function setAppConfig($appConfig)
+    public function setAppConfig(array $appConfig): void
     {
         $this->appConfig = $appConfig;
     }
 
     /**
-     * @return array
+     * @return array<string, mixed>
      */
-    public function getAppConfigPath()
+    public function getAppConfigPath(): array
     {
         return $this->appConfigPath;
     }
 
     /**
-     * @param array $appConfigPath
+     * @param array<string, mixed> $appConfigPath
      */
-    public function setAppConfigPath($appConfigPath)
+    public function setAppConfigPath(array $appConfigPath): void
     {
         $this->appConfigPath = $appConfigPath;
     }
 
     // Methods to instantiate from app container
     /**
-     * @return array
+     * @return array<string, mixed>
      */
-    public function getApp()
+    public function getApp(): array
     {
         return $this->app;
     }
     /**
-     * @param array $app
+     * @param array<string, mixed> $app
      */
-    public function setApp($app)
+    public function setApp(array $app): void
     {
         $this->app = $app;
     }
     /**
-     * @return array
+     * @return array<string, mixed>
      */
-    public function getAppConfigFile()
+    public function getAppConfigFile(): array
     {
         return $this->appConfigFile;
     }
     /**
-     * @param array $appConfigFile
+     * @param array<string, mixed> $appConfigFile
      */
-    public function setAppConfigFile($appConfigFile)
+    public function setAppConfigFile(array $appConfigFile): void
     {
         $this->appConfigFile = $appConfigFile;
     }

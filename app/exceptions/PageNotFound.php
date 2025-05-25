@@ -8,7 +8,7 @@ class PageNotFound extends Exception
     protected $message = 'Page not found';
     protected $code = 404;
 
-    public function __construct($message = null, $code = null, Exception $previous = null)
+    public function __construct($message = null, $code = null, ?Exception $previous = null)
     {
         if ($message) {
             $this->message = $message;

@@ -10,7 +10,7 @@ class UnauthorizedException extends Exception
     protected $message = 'Unauthorized access';
     protected $code = 401;
 
-    public function __construct($message = null, $code = null, Exception $previous = null)
+    public function __construct($message = null, $code = null, ?Exception $previous = null)
     {
         if ($message) {
             $this->message = $message;

@@ -17,5 +17,5 @@ interface MethodsInterface
     public static function head($path, $callback);
     public static function any($path, $callback);
     public static function group($attributes, $callback);
-    public static function redirect($from, $to, $status = 302);
+    public static function redirect($from, $to, int $status = 302);
 }

@@ -23,12 +23,27 @@ class ErrorHandler
         // exit();
     }
 
-    public static function handleError(int $errno, string $errstr, string $errfile, int $errline): void
+    /**
+     * Handle PHP errors by converting them to ErrorException.
+     *
+     * @param int $errno The level of the error raised.
+     * @param string $errstr The error message.
+     * @param string $errfile The filename where the error occurred.
+     * @param int $errline The line number where the error occurred.
+     *
+     * @throws \ErrorException
+     */
+    public static function handleError(int $errno, string $errstr, string $errfile, int $errline): bool
     {
         // Convert PHP errors to ErrorException
         throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
     }
 
+    /**
+     * Handle uncaught exceptions.
+     *
+     * @param \Throwable $exception The uncaught exception.
+     */
     public static function handleException(\Throwable $exception): void
     {
         // http_response_code(500);
@@ -41,6 +56,10 @@ class ErrorHandler
         self::renderErrorViews($exception);
     }
 
+    /**
+     * Handle shutdown and check for fatal errors.
+     * This method should be registered as a shutdown function.
+     */
     public static function handleShutdown(): void
     {
         $error = error_get_last();

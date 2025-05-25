@@ -2,6 +2,12 @@
 
 namespace App\traits;
 
+
+// check if BASE_PATH is already defined to avoid redefinition
+if (!defined('BASE_PATH')) {
+    // Define BASE_PATH relative to this file
+    define('BASE_PATH', __DIR__ . '/../..');
+}
 trait ErrorPagesHelper
 {
     /**

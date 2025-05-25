@@ -12,12 +12,12 @@ class HomeController
         // var_dump($this); // Uncomment this line for debugging if needed
     }
     
-    public function index()
+    public function index(): void
     {
         echo 'Hello, World!';
     }
 
-    public function show()
+    public function show(): void
     {
         // This method can be used to show a specific page or resource
         echo 'This is the show method of HomeController.';

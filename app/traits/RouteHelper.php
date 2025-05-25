@@ -4,8 +4,6 @@ namespace App\traits;
 
 use App\bootstrap\ErrorHandler;
 
-use function PHPSTORM_META\type;
-
 trait RouteHelper
 {
     public static function group($attributes, $callback)
@@ -14,20 +12,20 @@ trait RouteHelper
         self::me()->groupCallback = $callback;
     }
 
-    public static function redirect($from, $to, $status = 302)
+    public static function redirect($from, $to, int $status = 302)
     {
-        self::me()->addRoute('REDIRECT', $from, function () use ($to, $status) {
-            header("Location: $to", true, $status);
+        self::me()->addRoute('REDIRECT', $from, function () use ($to, $status): void {
+            header("Location: {$to}", true, $status);
             exit;
         });
     }
 
-    
-    private function addRoute($method, $path, $callback)
+    private function addRoute(string $method, string $path, mixed $callback): void
     {
         // Apply group prefix
         if (!empty($this->groupAttributes)) {
-            $path = $this->groupAttributes['prefix'] . $path;
+            $prefix = isset($this->groupAttributes['prefix']) ? (string)$this->groupAttributes['prefix'] : '';
+            $path = $prefix . $path;
             $this->groupAttributes = [];
         }
 
@@ -42,18 +40,15 @@ trait RouteHelper
         ];
     }
 
-    
-    public function dispatch($method, $requestPath)
+    public function dispatch(string $method, string $requestPath): mixed
     {
-        // dd($this->routes);
         foreach ($this->routes as $route) {
             if ($route['method'] !== $method) {
                 continue;
             }
 
-
             // Convert route path to regex
-            $regex = preg_replace('/\{(\w+)\}/', '([^/]+)', $route['path']);
+            $regex = preg_replace('/\{(\w+)\}/', '([^/]+)', (string)$route['path']);
             $regex = '#^' . $regex . '$#';
 
             if (preg_match($regex, $requestPath, $matches)) {
@@ -62,33 +57,22 @@ trait RouteHelper
                 $args = array_combine($params, $matches) ?: [];
 
                 $callback = $route['callback'];
-                // var_dump($callback);
 
-                // dd(call_user_func($callback, ...array_values($args)));
-
-                // Handle different callback types
                 if (is_string($callback)) {
-                    // Assume format "Controller@method"
                     if (strpos($callback, '@') === false) {
                         throw new \Exception("Invalid route callback format. Expected 'Controller@method'.");
                     }
-
-
-                    [$controller, $method] = explode('@', $callback);
+                    [$controller, $methodName] = explode('@', $callback);
                     $controllerInstance = new $controller();
-                    $callback = [$controllerInstance, $method];
+                    $callback = [$controllerInstance, $methodName];
                 }
 
-                if (is_array($callback))
-                {
-                    // Check if the first element is a class instance or a class name
+                if (is_array($callback)) {
                     if (is_string($callback[0]) && class_exists($callback[0])) {
                         $instance = new $callback[0];
                         $callback = [$instance, $callback[1]];
-                        
-                        return call_user_func($callback);
-                    } elseif (is_object($callback[0]) && method_exists($callback[0], $callback[1])) {
-                        // Already an instance with method
+                        return call_user_func($callback, ...array_values($args));
+                    } elseif (is_object($callback[0]) && method_exists($callback[0], (string)$callback[1])) {
                         $instance = $callback[0];
                     } else {
                         throw new \Exception("Invalid route callback.");
@@ -96,68 +80,53 @@ trait RouteHelper
                 }
 
                 if (is_callable($callback)) {
-                    return call_user_func($callback);
+                    return call_user_func($callback, ...array_values($args));
                 }
 
                 throw new \Exception("Invalid route callback.");
             }
         }
 
-        throw new \App\exceptions\PageNotFound("No route found for $method $requestPath");
+        throw new \App\exceptions\PageNotFound("No route found for {$method} {$requestPath}");
     }
 
-
-
-
-    // get routes
-    public static function getRoutes()
+    public static function getRoutes(): array
     {
         return self::me()->routes;
     }
 
-    public static function run()
+    
+    public static function run(): void
     {
-        // Get the current request method and path
-        $method = $_SERVER['REQUEST_METHOD'];
-        // Parse the URL to get the path with query string array
-        $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        // Remove the query string from the path
-        $path = strtok($path, '?');
-        // Dispatch the request to the appropriate route
+        $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+        $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+        $path = is_string($path) ? strtok($path, '?') : '/';
 
-        // 
         try {
             self::me()->dispatch($method, $path);
         } catch (\App\exceptions\RouteError $e) {
-            // Handle the exception (e.g., log it, show a custom error page, etc.)
             http_response_code(400);
-            // Log the error (optional)
             error_log($e->getMessage());
-            // Show custom error page
             ErrorHandler::handleException($e);
-            
         }
-        // self::me()->dispatch($method, $path);
     }
 
-    // get query string array from current request
-    public static function getQueryString()
+    public static function getQueryString(): array
     {
-        // Parse the URL to get the query string
-        $queryString = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
-        // Parse the query string into an associative array
-        // parse_str($queryString, $queryArray);
-        // return $queryArray;
+        $queryString = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_QUERY);
+        $queryArray = [];
+        if ($queryString) {
+            parse_str($queryString, $queryArray);
+        }
+        return $queryArray;
     }
 
-    public function __call($name, $arguments)
+    public function __call(string $name, array $arguments): mixed
     {
-        // Handle dynamic method calls for HTTP methods
         if (in_array(strtoupper($name), ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'])) {
             return $this->addRoute(strtoupper($name), ...$arguments);
         }
 
-        throw new \BadMethodCallException("Method $name does not exist.");
+        throw new \BadMethodCallException("Method {$name} does not exist.");
     }
-
 }

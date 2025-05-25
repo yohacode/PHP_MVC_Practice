@@ -1,5 +1,22 @@
 <?php
 
+
+// check if BASE_PATH is already defined to avoid redefinition
+if (!defined('BASE_PATH')) {
+    // Define BASE_PATH relative to this file
+    define('BASE_PATH', __DIR__ . '/../..');
+}
+
+/**
+ * Configuration file for the application
+ *
+ * This file contains the configuration settings for the application,
+ * including database connection details, application name, version,
+ * and other settings.
+ *
+ * @package App\config
+ */
+
 // app/config/app.php
 // Configuration file for the application
 return [

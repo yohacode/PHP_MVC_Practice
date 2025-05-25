@@ -4,5 +4,5 @@ namespace App\interface;
 
 interface LoadConfig
 {
-    public static function loadConfig($filePath);
+    public static function loadConfig(string $filePath): array;
 }

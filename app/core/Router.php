@@ -12,12 +12,11 @@ class Router implements MethodsInterface
 {
     use FromStatic, RouteHelper, RouteMethodHelper, RouteParameter;
 
-    private $routes = [];
-    private $groupAttributes = [];
-    private $groupCallback = null;
+    /** @var array<string, array<mixed>> */
+    protected array $routes = [];
+    /** @var array<string, mixed> */
+    protected array $groupAttributes = [];
+    protected mixed $groupCallback = null;
 
-
-    
-    
 
 }

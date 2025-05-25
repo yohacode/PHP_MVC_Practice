@@ -7,7 +7,12 @@ use App\interface\LoadConfig;
 
 class LoadConfigs implements LoadConfig
 {
-    public static function loadConfig($filePath)
+    /**
+     * Load a configuration file from the specified path.
+     * @param string $filePath The path to the configuration file.
+     * @return array<mixed> The configuration settings loaded from the file.
+     */
+    public static function loadConfig(string $filePath): array
     {
         // dd($filePath, "file path");
         // Load the configuration file

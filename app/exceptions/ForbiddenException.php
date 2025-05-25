@@ -8,7 +8,7 @@ class ForbiddenException extends Exception
     protected $message = 'Forbidden access';
     protected $code = 403;
 
-    public function __construct($message = null, $code = null, Exception $previous = null)
+    public function __construct($message = null, $code = null, ?Exception $previous = null)
     {
         if ($message) {
             $this->message = $message;

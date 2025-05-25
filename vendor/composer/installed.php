@@ -3,7 +3,7 @@
         'name' => 'yohacodes/mvc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '469954c69d774c7364958a07bd9c8610882551ce',
+        'reference' => '6071213b34502c8f2b0d7f6ab1c7089b8c0c985c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -63,6 +63,15 @@
             'install_path' => __DIR__ . '/../phpoption/phpoption',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '2.1.17',
+            'version' => '2.1.17.0',
+            'reference' => '89b5ef665716fa2a52ecd2633f21007a6a349053',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '12.3.0',
@@ -301,7 +310,7 @@
         'yohacodes/mvc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '469954c69d774c7364958a07bd9c8610882551ce',
+            'reference' => '6071213b34502c8f2b0d7f6ab1c7089b8c0c985c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

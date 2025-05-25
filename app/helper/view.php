@@ -7,7 +7,7 @@ if (!function_exists('view'))
     /**
      * Helper function to create a new View instance.
      *
-     * @return \App\core\View
+     * @return string
      */
     function view()
     {

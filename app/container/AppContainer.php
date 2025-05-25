@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace App\container;
 
@@ -10,100 +10,52 @@ namespace App\container;
 
 class AppContainer
 {
-    /**
-     * @var array
-     */
-    protected $services = [];
+    /** @var array<string, callable> */
+    protected array $services = [];
 
-    /**
-     * @var array
-     */
-    protected $instances = [];
+    /** @var array<string, mixed> */
+    protected array $instances = [];
 
-    /**
-     * @var array
-     */
-    protected $aliases = [];
+    /** @var array<string, string> */
+    protected array $aliases = [];
 
-    /**
-     * @var array
-     */
-    protected $bindings = [];
+    /** @var array<string, callable> */
+    protected array $bindings = [];
 
-    /**
-     * @var array
-     */
-    protected $resolved = [];
+    /** @var array<string, bool> */
+    protected array $resolved = [];
 
-    /**
-     * @var array
-     */
-    protected $tags = [];
-    /**
-     * @var array
-     */
-    protected $tagged = [];
-    /**
-     * @var array
-     */
-    protected $resolvingCallbacks = [];
-    /**
-     * @var array
-     */
-    protected $afterResolvingCallbacks = [];
-    /**
-     * @var array
-     */
-    protected $globalResolvingCallbacks = [];
-    /**
-     * @var array
-     */
-    protected $globalAfterResolvingCallbacks = [];
-    /**
-     * @var array
-     */
-    protected $globalResolvingCallbacksByTag = [];
-    /**
-     * @var array
-     */
+    /** @var array<string, array<int, string>> */
+    protected array $tagged = [];
 
-    protected $globalAfterResolvingCallbacksByTag = [];
+    /** @var array<string, array<int, callable>> */
+    protected array $resolvingCallbacks = [];
 
+    /** @var array<string, array<int, callable>> */
+    protected array $afterResolvingCallbacks = [];
 
-   /**
-     * @var array
-     */
-    protected $globalResolvingCallbacksByClass = [];
-    /**
-     * @var array
-     */
-    protected $globalAfterResolvingCallbacksByClass = [];
-    /**
-     * @var array
-     */
-    protected $globalResolvingCallbacksByClassAndTag = [];
-    /**
-     * @var array
-     */
-    protected $globalAfterResolvingCallbacksByClassAndTag = [];
+    /** @var array<int, callable> */
+    protected array $globalResolvingCallbacks = [];
 
+    /** @var array<int, callable> */
+    protected array $globalAfterResolvingCallbacks = [];
 
-     public function bind($abstract, $concrete)
+    public function bind(string $abstract, callable $concrete): void
     {
         $this->bindings[$abstract] = $concrete;
     }
 
-    public function singleton($abstract, $concrete)
+    public function singleton(string $abstract, callable $concrete): void
     {
         $this->services[$abstract] = $concrete;
     }
 
-    public function alias($abstract, $alias)
+    public function alias(string $abstract, string $alias): void
     {
         $this->aliases[$alias] = $abstract;
     }
 
-    public function make($abstract)
+    public function make(string $abstract): mixed
     {
         if (isset($this->aliases[$abstract])) {
             $abstract = $this->aliases[$abstract];
@@ -116,19 +68,18 @@ class AppContainer
         $object = null;
 
         if (isset($this->bindings[$abstract])) {
-            $object = $this->bindings[$abstract]($this);
+            $object = ($this->bindings[$abstract])($this);
         } elseif (isset($this->services[$abstract])) {
-            $object = $this->services[$abstract]($this);
+            $object = ($this->services[$abstract])($this);
             $this->instances[$abstract] = $object;
         } elseif (class_exists($abstract)) {
             $object = new $abstract();
         } else {
-            throw new \Exception("Cannot resolve [$abstract]");
+            throw new \Exception("Cannot resolve [" . (string)$abstract . "]");
         }
 
         $this->resolved[$abstract] = true;
 
-        // Global and targeted resolving callbacks
         foreach ($this->globalResolvingCallbacks as $callback) {
             $callback($object, $this);
         }
@@ -148,17 +99,21 @@ class AppContainer
         return $object;
     }
 
-    public function resolving($abstract, $callback)
+    public function resolving(string $abstract, callable $callback): void
     {
         $this->resolvingCallbacks[$abstract][] = $callback;
     }
 
-    public function afterResolving($abstract, $callback)
+    public function afterResolving(string $abstract, callable $callback): void
     {
         $this->afterResolvingCallbacks[$abstract][] = $callback;
     }
 
-    public function tag($abstracts, $tags)
+    /**
+     * @param array<int, string>|string $abstracts
+     * @param array<int, string>|string $tags
+     */
+    public function tag(array|string $abstracts, array|string $tags): void
     {
         foreach ((array)$tags as $tag) {
             foreach ((array)$abstracts as $abstract) {
@@ -167,7 +122,10 @@ class AppContainer
         }
     }
 
-    public function tagged($tag)
+    /**
+     * @return array<mixed>
+     */
+    public function tagged(string $tag): array
     {
         $results = [];
 

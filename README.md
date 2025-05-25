@@ -177,4 +177,3 @@ Have questions or ideas? Open an issue or reach out to:
 ---
 
 ```
-
