@@ -1,6 +1,4 @@
 # PHP_MVC_Practice
-Here’s a **README.md** tailored for your **custom MVC framework project**, written with clarity and professionalism for developers who want to use or contribute to your framework.
-
 ---
 
 ````markdown
@@ -20,6 +18,7 @@ A lightweight, developer-friendly custom MVC (Model-View-Controller) framework b
 - 📦 PSR-4 Autoloading via Composer
 - 📝 Form Validation using Attributes
 - 🧪 Easy to Extend and Customize
+
 
 ---
 
