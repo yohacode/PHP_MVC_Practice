@@ -8,7 +8,6 @@ trait ViewsRenderHelper
     public function render(string $view, array $data = []): string
     {
         // Implementation of rendering logic
-        // dd($view);
         return $this->renderView($view, $data);
     }
 

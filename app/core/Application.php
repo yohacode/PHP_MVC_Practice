@@ -4,19 +4,20 @@ namespace App\core;
 
 use Exception;
 use App\bootstrap\ErrorHandler;
+use SebastianBergmann\Type\VoidType;
 
 class Application
 {
     public function __construct()
     {
         // Initialize the application
+        // ErrorHandler::register();
         $this->init();
     }
 
-    private function init()
+    public function init(): void
     {
         // Error handling
-        ErrorHandler::register();
         // Load environment variables
         load_env(__DIR__. '/../../');
         // Load configuration files 
@@ -27,23 +28,18 @@ class Application
         } catch (Exception $e) {
             echo "Error loading routes: " . $e->getMessage();
         }
-
-
     }
 
-    public function run()
+    public function run(): void
     {
         $this->handleRequest();
-        $this->sendResponse();
-        exit;
+        // exit;
     }
     
-    public function handleRequest()
+    public function handleRequest(): void
     {
         Router::run();
     }
 
-    public function sendResponse()
-    {
-    }
+    
 }

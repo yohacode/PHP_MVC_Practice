@@ -1,0 +1,22 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "This is just Practice Perpose only",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohacode/PHP_MVC_Practice.git"
+  },
+  "author": "Yohannes Zerihun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yohacode/PHP_MVC_Practice/issues"
+  },
+  "homepage": "https://github.com/yohacode/PHP_MVC_Practice#readme"
+}

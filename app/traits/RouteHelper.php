@@ -2,7 +2,6 @@
 
 namespace App\traits;
 
-use App\exceptions\RouteError;
 use App\bootstrap\ErrorHandler;
 
 use function PHPSTORM_META\type;
@@ -46,10 +45,12 @@ trait RouteHelper
     
     public function dispatch($method, $requestPath)
     {
+        // dd($this->routes);
         foreach ($this->routes as $route) {
             if ($route['method'] !== $method) {
                 continue;
             }
+
 
             // Convert route path to regex
             $regex = preg_replace('/\{(\w+)\}/', '([^/]+)', $route['path']);
@@ -84,7 +85,7 @@ trait RouteHelper
                     if (is_string($callback[0]) && class_exists($callback[0])) {
                         $instance = new $callback[0];
                         $callback = [$instance, $callback[1]];
-                        // dd($instance->index(), $callback);
+                        
                         return call_user_func($callback);
                     } elseif (is_object($callback[0]) && method_exists($callback[0], $callback[1])) {
                         // Already an instance with method
@@ -94,22 +95,9 @@ trait RouteHelper
                     }
                 }
 
-                // if (is_array($callback) && is_object($callback[0]) && method_exists($callback[0], $callback[1])) {
-                //     // return call_user_func_array($callback, array_values($args));
-                //     $instance = new $callback[0];
-                //     // dd($instance);
-                // }
-
                 if (is_callable($callback)) {
-                    // dd('ds');
-                    // dd($callback);
                     return call_user_func($callback);
                 }
-
-                // if (is_object($callback) && method_exists($callback, '__invoke')) {
-                //     // return $callback(...array_values($args));
-                //     return call_user_func($callback[0]);
-                // }
 
                 throw new \Exception("Invalid route callback.");
             }

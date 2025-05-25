@@ -27,7 +27,6 @@ class View implements \App\interface\ViewInterface
 
     public function view($name, $argc): string
     {
-        // dd(1);
         return $this->render($name, $argc); // Default view, can be changed as needed
     }
 

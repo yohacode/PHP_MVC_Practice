@@ -2,7 +2,7 @@
 
 // load autoloader
 require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
-
+// define('BASE_PATH', dirname(__DIR__, 2));
 
 /**
  * 
@@ -44,6 +44,7 @@ if (!function_exists('view'))
      */
     function view($name='',$argc = [])
     {
+        // return $name;
         $v = new \App\core\View();
         return $v->view($name, $argc);
     }
