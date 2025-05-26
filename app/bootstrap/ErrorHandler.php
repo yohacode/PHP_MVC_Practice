@@ -85,7 +85,7 @@ class ErrorHandler
         } elseif ($exception instanceof \App\exceptions\ForbiddenException) {
             self::render403Page();
         }else {
-            // dd($exceptions);
+            dd($exceptions);
             self::render500Page();
         }
     }

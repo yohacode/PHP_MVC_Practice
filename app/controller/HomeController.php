@@ -2,6 +2,8 @@
 
 namespace App\controller;
 
+use App\core\View;
+
 class HomeController
 {
     // debugging   info
@@ -14,7 +16,14 @@ class HomeController
     
     public function index(): void
     {
-        echo 'Hello, World!';
+        // echo 'Hello, World!';
+
+        $view = new View();
+        echo $view->layout('app', [
+            'title' => 'Home Page',
+            'content' => $view->view('index', ['title' => 'Home Page'])
+        ]);
+        // echo $view->view('index', ['title' => 'Home Page']);
     }
 
     public function show(): void

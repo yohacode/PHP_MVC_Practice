@@ -2,14 +2,16 @@
 
 namespace App\core;
 
+use App\traits\app\Init;
+use App\traits\FromStatic;
 
 class Application
 {
-    use \App\traits\app\Init;
+    use Init, FromStatic;
 
-    public function run(): void
+    public static function run(): void
     {
-        $this->handleRequest();
+        self::me()->handleRequest();
     }
     
 

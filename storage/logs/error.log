@@ -279,3 +279,881 @@ Stack trace:
 #4 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
 #5 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application->__construct()
 #6 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /public/dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /favicon.ico in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /dist/app.bundle.js in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /favicon.ico in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /public/favicon.ico in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(20): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /w in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(12): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(17): App\core\Application->run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /a in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /about in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /about in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /about in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /about in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+App\exceptions\PageNotFound: No route found for GET /about in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:90
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+TypeError: view(): Return value must be of type string, none returned in /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php:52
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 [internal function]: App\core\Application->__construct()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/FromStatic.php(16): ReflectionClass->newInstance()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application::me()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+TypeError: view(): Return value must be of type string, none returned in /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php:52
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/LoadRouters.php(16): require('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#4 [internal function]: App\core\Application->__construct()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/FromStatic.php(16): ReflectionClass->newInstance()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application::me()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: Invalid route callback format. Expected 'Controller@method'. in /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php:63
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#3 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#4 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+TypeError: view(): Return value must be of type string, none returned in /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php:52
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#1 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#5 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#6 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#7 {main}
+TypeError: view(): Return value must be of type string, none returned in /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php:52
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#1 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#5 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#6 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#7 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Constant BASE_PATH already defined in /home/yohacodes/Projects/PHP/MVC/app/core/View.php:5
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(5): define()
+#2 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(576): include('...')
+#3 /home/yohacodes/Projects/PHP/MVC/vendor/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(48): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Trait "App\traits\views\ViewsRenderHelper" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsDecorator.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Trait "App\traits\views\ViewsRenderHelper" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsDecorator.php:13
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Trait "App\traits\views\ViewsRenderHelper" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsDecorator.php:17
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Trait "App\traits\views\ViewsRenderHelper" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsDecorator.php:17
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Trait "App\traits\views\ViewsRenderHelper" not found in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsDecorator.php:17
+Stack trace:
+#0 [internal function]: App\bootstrap\ErrorHandler::handleShutdown()
+#1 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/index.php:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(32): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/index.php:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(32): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ParseError: syntax error, unexpected identifier "iew", expecting ")" in /home/yohacodes/Projects/PHP/MVC/routes/www.php:8
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#2 [internal function]: App\core\Application->__construct()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/FromStatic.php(16): ReflectionClass->newInstance()
+#4 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application::me()
+#5 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#6 {main}
+ParseError: syntax error, unexpected identifier "iew", expecting ")" in /home/yohacodes/Projects/PHP/MVC/routes/www.php:8
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(51): App\core\LoadRouters::loadRouter()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(32): App\core\Application->init()
+#2 [internal function]: App\core\Application->__construct()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/FromStatic.php(16): ReflectionClass->newInstance()
+#4 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application::me()
+#5 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#6 {main}
+ErrorException: Undefined variable $title in /home/yohacodes/Projects/PHP/MVC/views/index.php:6
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(6): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(32): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $title in /home/yohacodes/Projects/PHP/MVC/views/index.php:9
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(9): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(32): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Creation of dynamic property App\core\View::$decoratorData is deprecated in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:32
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(32): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#3 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#4 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#5 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#9 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#10 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#11 {main}
+ErrorException: Creation of dynamic property App\core\View::$decoratorData is deprecated in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:30
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(30): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#3 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#4 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#5 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#9 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#10 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#11 {main}
+ErrorException: Undefined variable $varName in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:39
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(39): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#2 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#3 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#4 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#5 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#9 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#10 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#11 {main}
+ErrorException: Undefined array key 2 in /home/yohacodes/Projects/PHP/MVC/views/index.php:9
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(9): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(40): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/index.php:9
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(9): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(40): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/index.php:9
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(9): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(40): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/index.php:9
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/index.php(9): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(40): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#3 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#4 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#5 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#6 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#10 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#11 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#12 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(48): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():47}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(47): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+ParseError: syntax error, unexpected token "<", expecting ";" in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(53): App\core\View->evaluate()
+#1 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():52}()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(52): preg_replace_callback()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#4 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#5 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#6 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#7 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#8 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#9 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#11 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#12 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#13 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code:1
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72) : eval()'d code(1): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(72): eval()
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(53): App\core\View->evaluate()
+#3 [internal function]: App\core\View->{closure:App\traits\views\ViewsRenderHelper::applyDecorators():52}()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(52): preg_replace_callback()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(18): App\core\View->applyDecorators()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#7 /home/yohacodes/Projects/PHP/MVC/app/helper/helper.php(49): App\core\View->view()
+#8 /home/yohacodes/Projects/PHP/MVC/routes/www.php(8): view()
+#9 [internal function]: App\core\LoadRouters::{closure:/home/yohacodes/Projects/PHP/MVC/routes/www.php:8}()
+#10 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(83): call_user_func()
+#11 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#12 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#13 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#14 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#15 {main}
+Exception: View file not found: /home/yohacodes/Projects/PHP/MVC/app/helper/../../views/home.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:27
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(19): App\core\View->renderView()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->render()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/app/helper/../../views/layouts/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:109
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(83): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/app/helper/../../views/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:109
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(83): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/app/helper/../../views//layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:114
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/app/helper/../../views/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:114
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/app/core/../../views/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:114
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: View file not found: /home/yohacodes/Projects/PHP/MVC/app/core/../../../views/index.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:32
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(24): App\core\View->renderView()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#2 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(24): App\core\View->view()
+#3 [internal function]: App\controller\HomeController->index()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#7 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#8 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#9 {main}
+Exception: View file not found: /home/yohacodes/Projects/PHP/MVC/app/core/../../../../views/index.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:32
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(24): App\core\View->renderView()
+#1 /home/yohacodes/Projects/PHP/MVC/app/core/View.php(52): App\core\View->render()
+#2 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(24): App\core\View->view()
+#3 [internal function]: App\controller\HomeController->index()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#7 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#8 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#9 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/views/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:114
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+Exception: File not found: /home/yohacodes/Projects/PHP/MVC/views/layouts/main.php in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:114
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#1 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#2 [internal function]: App\controller\HomeController->index()
+#3 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#6 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#7 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#8 {main}
+ErrorException: Creation of dynamic property App\core\View::$decoratorData is deprecated in /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php:117
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(117): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(88): App\core\View->renderGeneric()
+#2 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#3 [internal function]: App\controller\HomeController->index()
+#4 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#7 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#8 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#9 {main}
+ErrorException: Undefined variable $name in /home/yohacodes/Projects/PHP/MVC/views/layouts/app.php:18
+Stack trace:
+#0 /home/yohacodes/Projects/PHP/MVC/views/layouts/app.php(18): App\bootstrap\ErrorHandler::handleError()
+#1 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(125): include('...')
+#2 /home/yohacodes/Projects/PHP/MVC/app/traits/views/ViewsRenderHelper.php(94): App\core\View->renderGeneric()
+#3 /home/yohacodes/Projects/PHP/MVC/app/controller/HomeController.php(22): App\core\View->layout()
+#4 [internal function]: App\controller\HomeController->index()
+#5 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(74): call_user_func()
+#6 /home/yohacodes/Projects/PHP/MVC/app/traits/RouteHelper.php(106): App\core\Router->dispatch()
+#7 /home/yohacodes/Projects/PHP/MVC/app/traits/app/Init.php(62): App\core\Router::run()
+#8 /home/yohacodes/Projects/PHP/MVC/app/core/Application.php(14): App\core\Application->handleRequest()
+#9 /home/yohacodes/Projects/PHP/MVC/public/index.php(19): App\core\Application::run()
+#10 {main}

@@ -44,9 +44,11 @@ if (!function_exists('view'))
      */
     function view($name='',$argc = [])
     {
-        // return $name;
+        // echo "Loading view: $name with arguments: " . json_encode($argc) . "\n"; // Debugging output, remove in production
         $v = new \App\core\View();
-        return $v->view($name, $argc);
+        $vv = $v->view($name, $argc);
+        return $vv;
+        
     }
 }
 

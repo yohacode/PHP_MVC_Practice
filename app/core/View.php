@@ -2,7 +2,12 @@
 
 namespace App\core;
 
-define('BASE_PATH', __DIR__ . '/../..'); // Define BASE_PATH relative to this file
+// if (!defined('BASE_PATH')) {
+//     // If BASE_PATH is not defined, define it relative to this file
+//     // This assumes the file is located in app/core/View.php
+//     // Adjust the path as necessary based on your directory structure
+//     define('BASE_PATH', dirname(__DIR__, 2)); // Define BASE_PATH relative to this file
+// }
 /**
  * View class for rendering views in the application.
  *
@@ -26,7 +31,7 @@ class View implements \App\interface\ViewInterface
 
     public function __construct()
     {
-        $baseViewPath = BASE_PATH. '/views'; // Assuming BASE_PATH is defined somewhere in your application
+        $baseViewPath = dirname(__DIR__, 2). '/views'; 
         $this->viewPath = $baseViewPath.'/';
         $this->layoutPath = $baseViewPath . '/layouts/';
         $this->partialPath = $baseViewPath . '/partials/';
@@ -42,9 +47,16 @@ class View implements \App\interface\ViewInterface
      * @param array<mixed> $argc The arguments to pass to the view
      * @return string The rendered view content.
      */
-    public function view($name, $argc): string
+    public function view($name, $argc): void
     {
-        return $this->render($name, $argc); // Default view, can be changed as needed
+        $view = $this->render($name, $argc); 
+        try {
+            echo $this->applyDecorators($view);
+        } catch (\Exception $e) {
+            throw new \App\exceptions\views\ViewsGetHelperExceptions("Error rendering view: " . $e->getMessage(), 500, $e);
+        }
+
+        // return $view;
     }
 
 

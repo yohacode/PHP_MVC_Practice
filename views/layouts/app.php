@@ -1,11 +1,26 @@
+<?php
+// File: app/views/layouts/main.php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?></title>
+    <title><?= $title ?? 'My Site' ?></title>
 </head>
 <body>
-    <?php echo 'Hello...'; ?>
+    <header>
+        <h1>My Site Header</h1>
+    </header>
+
+    <main>
+        <?= $content ?? '' ?>
+    </main>
+
+    <footer>
+        <p>&copy; <?= date('Y') ?> My Site</p>
+    </footer>
+
+    <!-- Script -->
+     <script src="/dist/bundle.js"></script>
 </body>
 </html>
