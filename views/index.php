@@ -1,3 +1,4 @@
 <p>
-    lol
+    <?= $title ?>
+    <!-- lol { $title }! -->
 </p>

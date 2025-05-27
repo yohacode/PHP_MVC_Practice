@@ -21,7 +21,11 @@ class HomeController
         $view = new View();
         echo $view->layout('app', [
             'title' => 'Home Page',
-            'content' => $view->view('index', ['title' => 'Home Page'])
+            'description' => 'This is the home page of our application.',
+            'name' => 'Yohannes',
+            'keywords' => 'home, page, example',
+            'author' => 'Yohannes',
+            'content' => $view->view('index', ['title' => 'Home Page', 'name' => 'Yohannes']),
         ]);
         // echo $view->view('index', ['title' => 'Home Page']);
     }

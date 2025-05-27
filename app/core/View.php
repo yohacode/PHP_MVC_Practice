@@ -47,11 +47,11 @@ class View implements \App\interface\ViewInterface
      * @param array<mixed> $argc The arguments to pass to the view
      * @return string The rendered view content.
      */
-    public function view($name, $argc): void
+    public function view($name, $argc): string
     {
         $view = $this->render($name, $argc); 
         try {
-            echo $this->applyDecorators($view);
+            return $this->applyDecorators($view);
         } catch (\Exception $e) {
             throw new \App\exceptions\views\ViewsGetHelperExceptions("Error rendering view: " . $e->getMessage(), 500, $e);
         }
