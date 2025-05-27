@@ -1,6 +1,4 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 /**
  * * View Render Helper Trait
  * * This trait provides methods for rendering views, layouts, partials, components, blocks, and templates.
@@ -8,7 +6,6 @@ declare(strict_types=1);
  */
 
 namespace App\traits\views;
-
 if (!defined('BASE_PATH')) {
     // If BASE_PATH is not defined, define it relative to this file
     // This assumes the file is located in app/traits/views/ViewsRenderHelper.php
@@ -34,63 +31,44 @@ trait ViewsRenderHelper
         );
     }
 
-    /**
-     * Renders a view file with the given name and data.
-     *
-     * @param string $view The name of the view file to render.
-     * @param array<mixed> $data The data to pass to the view.
-     * @return string The rendered view content.
-     * @throws \Exception If the view file does not exist.
-     */
-    protected function renderView(string $view, array $data)
+    protected function renderView(string $view, array $data): string
     {
+        // store data into an array with key value pair 
+        $data = is_array($data) ? $data : ['data' => $data];
+
+        
         $viewPath = $this->getViewPath($view);
         if (!file_exists($viewPath)) {
             throw new \Exception("View file not found: " . $viewPath);
         }
 
-        // ob_start();
+        ob_start();
         // If $data is a multidimensional array with a single key, extract that key as variable
-        if (count($data) === 1 && is_array(reset($data))) {
+        if (is_array($data))
+        {
+            // Check if the array has a single key
             $varName = key($data);
-            $$varName = reset($data);
+            $$varName = $data[$varName];
             extract([$varName => $$varName]);
-        } else {
-            extract($data);
         }
-        // dd($data); // Debugging output, remove in production
+        // dd($v); // Debugging output, remove in production
         include $viewPath;
-        // return ob_get_clean();
+        return ob_get_clean();
     }
 
     protected function applyDecorators(string $content): string
     {
-        // Parse and evaluate double curly expressions: {{ ... }}
-        $content = preg_replace_callback('/{{\s*(.*?)\s*}}/', function ($matches) {
-            $expression = $matches[1];
-
-            // Check if the expression contains any variables (e.g., $var) or function calls (e.g., func())
-            $hasVariables = preg_match_all('/\$\w+/', $expression, $variableMatches);
-            $hasFunctions = preg_match_all('/\b\w+\s*\(.*?\)/', $expression, $functionMatches);
-            
-            // dd($variableMatches, $functionMatches); // Debugging output, remove in production
-
-            if ($hasVariables || $hasFunctions) {
-                // It's a valid expression with variable or function call, evaluate it
-                try {
-                    return htmlentities($this->evaluate($expression), ENT_QUOTES, 'UTF-8');
-                } catch (\Throwable $e) {
-                    // Log or handle evaluation errors
-                    return htmlentities("Error: " . $e->getMessage(), ENT_QUOTES, 'UTF-8');
-                }
-            }
-
-            // Return as plain text if no recognizable code
-            return htmlentities($expression, ENT_QUOTES, 'UTF-8');
+        // Double curly: {{...}} => htmlentities(...)
+        $content = preg_replace_callback('/{{\s*(.*?)\s*}}/', function ($matches) 
+        {
+            // dd($matches);
+            return htmlentities($this->evaluate($matches[1]));
         }, $content);
 
         // Single curly: {...} => evaluate and return raw
-        $content = preg_replace_callback('/{\s*(.*?)\s*}/', function ($matches) {
+        $content = preg_replace_callback('/{\s*(.*?)\s*}/', function ($matches) 
+        {
+            // dd($matches);
             return $this->evaluate($matches[1]);
         }, $content);
 
@@ -104,6 +82,7 @@ trait ViewsRenderHelper
             return strtoupper($this->evaluate($matches[1]));
         }, $content);
 
+        // dd($content);
         return $content;
     }
 

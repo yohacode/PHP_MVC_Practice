@@ -1,6 +1,3 @@
-<?php
-// File: app/views/layouts/main.php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +10,15 @@
     </header>
 
     <main>
-        <?= $content ?? '' ?>
+        <?= $content ?? '<p>Welcome to my site!</p>' ?>
+        <p>Author: <?= $author ?? 'Unknown' ?></p>
+        <p>Description: <?= $description ?? 'No description provided.' ?></p>
+        <p>Keywords: <?= $keywords ?? 'No keywords provided.' ?></p>
+        <p>Name: <?= $name ?? 'Guest' ?></p>
+        <p>Current Year: <?= date('Y') ?></p>
+        <p>Current Date: <?= date('Y-m-d H:i:s') ?></p>
+        <p>Current Time: <?= date('H:i:s') ?></p>
+        <p>Current Timestamp: <?= time() ?></p>
     </main>
 
     <footer>
